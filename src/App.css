@@ -1,0 +1,47 @@
+.app {
+   margin: 5rem auto;
+   text-align: center;
+   background: yellowgreen;
+    
+}
+
+.app input {
+  width: 15rem;
+  height: 3rem;
+  padding: 10px;
+  margin: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.app button {
+    font-weight: 700;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.app button:hover{
+    border: none;
+    background: slateblue;
+    color: #fff;
+}
+.app ul{
+  display: block;
+  align-items: center;
+  justify-content: center;
+    background: violet;
+    
+}
+.app ul li{
+    width: 20%;
+    padding: 10px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    background: turquoise;
+   
+}
+.app ul li button{
+  margin: 0 20px;
+}
