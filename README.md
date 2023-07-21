@@ -1,8 +1,14 @@
-# React + Vite
+# Todo app with React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Assignment: Crate a to do list app using useState()
 
-Currently, two official plugins are available:
+Requirements:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Task Input: Provide an input field where the user can enter a new task. The entered task should be stored in state using the useState() hook.
+
+2. Add Task Functionality: Implement a button or submit action that allows the user to add the entered task to the to-do list. When the user clicks the button or submits the form, the task should be added to the list stored in state using the useState() hook.
+
+3. Task List: Display the list of tasks added by the user. Each task should be rendered as an item in the list, showing the task description and an option to mark it as complete or delete it.
+
+4. Remove Task Functionality: Add a delete button or icon for each task in the list. When the user clicks the delete button, the corresponding task should be removed from the list in the state using the useState() hook.
+
